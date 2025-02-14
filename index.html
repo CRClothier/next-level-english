@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Level English - Aprende Inglés en Perú</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #1e1e2e;
+            color: white;
+        }
+        header {
+            background: linear-gradient(135deg, #ff8a00, #e52e71);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2a2a3c;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: 400;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff8a00;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #2a2a3c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .carousel {
+            display: flex;
+            gap: 20px;
+            transition: transform 0.5s ease-in-out;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .carousel div {
+            flex: 0 0 calc(33.33% - 20px);
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #ff8a00, #e52e71);
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            scroll-snap-align: center;
+        }
+        .carousel p {
+          font-size: 12px;
+          font-weight: normal;
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: white;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+        .arrow:hover {
+            background: rgba(255, 255, 255, 0.6);
+        }
+        .arrow-left {
+            left: 10px;
+        }
+        .arrow-right {
+            right: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2a2a3c;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Bienvenido a Next Level English
+    </header>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#courses">Cursos</a>
+        <a href="#levels">Niveles</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En Next Level English, estamos dedicados a llevar tu dominio del inglés al siguiente nivel. Nuestro enfoque se basa en ofrecer clases personalizadas que se adaptan a tus necesidades y objetivos específicos. Ya sea que busques mejorar tus habilidades para avanzar en tu carrera, estudiar en el extranjero o simplemente comunicarte con confianza, nuestro equipo de expertos está aquí para ayudarte a alcanzar tus metas.<br><br>
+
+              Con años de experiencia en la enseñanza del inglés, ofrecemos una amplia variedad de cursos que abarcan desde inglés general hasta inglés de negocios, y preparaciones para exámenes internacionales como IELTS, TOEFL y más. Nos enorgullece proporcionar un ambiente de aprendizaje interactivo, dinámico y totalmente centrado en el alumno.<br><br>
+              
+              En Next Level English, no solo enseñamos un idioma, sino que creamos experiencias de aprendizaje inolvidables que te impulsarán a alcanzar tu máximo potencial. Únete a nosotros y descubre cómo podemos ayudarte a dominar el inglés y abrir nuevas puertas a nivel personal y profesional.<br><br>
+              
+              ¡Tu viaje hacia el dominio del inglés comienza aquí!<br><br></p>
+        </section>
+        <section id="courses">
+            <h2>Nuestros Cursos</h2>
+            <p>En Next Level English, ofrecemos una variedad de cursos diseñados para ayudarte a alcanzar tu máximo potencial en el dominio del inglés. Ya sea que estés comenzando desde cero o busques perfeccionar tus habilidades, tenemos el curso perfecto para ti.<br><br>
+
+              <h3>Cursos de Inglés General</h3>
+              Para aquellos que desean mejorar su fluidez y comprensión del inglés en situaciones cotidianas. Aprenderás a comunicarte con confianza en cualquier entorno.<br><br>
+              
+              <h3>Inglés de Negocios</h3>
+              Aumenta tu competitividad profesional con nuestras clases centradas en el inglés en el ámbito laboral. Desde redacción de correos electrónicos hasta presentaciones de negocios, te preparamos para destacar en el mundo corporativo.<br><br>
+              
+              <h3>Preparación para Exámenes Internacionales</h3>
+              Te ayudamos a prepararte para las pruebas más reconocidas mundialmente como IELTS, TOEFL y Cambridge. Con nuestra orientación experta, aumentarás tus posibilidades de obtener las mejores calificaciones.<br><br>
+              
+              <h3>Inglés para Viajeros</h3>
+              ¿Viajas por placer o trabajo? Nuestros cursos para viajeros te enseñarán lo esencial para moverte con facilidad y seguridad en cualquier país de habla inglesa.<br><br>
+              
+              <h3>Clases Privadas y Personalizadas</h3>
+              En Next Level English, entendemos que cada estudiante tiene necesidades diferentes. Por eso, ofrecemos clases individuales adaptadas a tu ritmo y metas, para que aprendas de la manera más eficaz y cómoda para ti.<br><br>
+              
+              Con nuestros cursos innovadores y métodos de enseñanza efectivos, te garantizamos que avanzarás rápidamente en tu camino hacia el dominio del inglés. ¡Es hora de llevar tu inglés al siguiente nivel!<br><br></p>
+        </section>
+        <section id="levels">
+            <h2>Niveles de Inglés</h2>
+            <div class="carousel-container">
+                <button class="arrow arrow-left" onclick="moveSlide(-1)">&#9665;</button>
+                <div class="carousel">
+                    <div>A1 - Principiante: <p>En el nivel A1, comenzarás tu viaje con lo más básico del inglés. Aprenderás a presentarte, saludar, y expresar ideas sencillas sobre ti mismo y tu entorno. También te familiarizarás con vocabulario y estructuras gramaticales esenciales para situaciones cotidianas como comprar, preguntar direcciones y describir personas y lugares. Al final de este nivel, serás capaz de comunicarte de manera simple en inglés en situaciones muy comunes.</p></div>
+                    <div>A2 - Elemental: <p>El nivel A2 te ayudará a ganar más confianza al hablar sobre temas familiares. Aprenderás a describir tu rutina diaria, hablar sobre tus intereses y preferencias, y hacer comparaciones simples. También empezarás a usar tiempos verbales más complejos, como el pasado y el futuro, y expandirás tu vocabulario en áreas como la comida, el trabajo y el tiempo libre. Al final de este nivel, podrás mantener conversaciones simples sobre temas cotidianos.</p></div>
+                    <div>B1 - Intermedio: <p>En el nivel B1, mejorarás tu capacidad para expresarte de manera más fluida y detallada. Serás capaz de hablar sobre experiencias pasadas, planes futuros, y expresar opiniones sobre temas que te interesan. También aprenderás a usar modismos y frases hechas, y podrás comprender textos sencillos de diversas temáticas. Al final de este nivel, podrás participar en conversaciones sobre una amplia gama de temas y entender textos escritos básicos sin dificultades.</p></div>
+                    <div>B2 - Intermedio Alto: <p>El nivel B2 es donde empezarás a dominar el inglés en un nivel más avanzado. Aprenderás a argumentar y defender opiniones, a describir situaciones complejas y a interactuar con hablantes nativos sin mayores problemas. Mejorarás tu capacidad para redactar textos más elaborados, como correos electrónicos, informes y ensayos. Además, adquirirás un vocabulario más amplio y aprenderás a comprender textos más desafiantes, como artículos de noticias o instrucciones detalladas. Al final de este nivel, serás capaz de comunicarte de manera efectiva en la mayoría de las situaciones cotidianas y profesionales.</p></div>
+                    <div>C1 - Avanzado: <p>El nivel C1 es donde tu fluidez y comprensión del inglés alcanzan un nivel alto. Serás capaz de expresar ideas complejas con precisión, tanto de manera escrita como hablada. Mejorarás tu capacidad para discutir temas abstractos, presentar argumentos sólidos y entender textos académicos y literarios con facilidad. También perfeccionarás tus habilidades para la escritura formal y el uso avanzado de la gramática y el vocabulario. Al final de este nivel, podrás comunicarte de manera natural y efectiva en cualquier contexto, ya sea personal, profesional o académico.</p></div>
+                </div>
+                <button class="arrow arrow-right" onclick="moveSlide(1)">&#9655;</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Email: hello@nextlevelenglishperu.com</p>
+            <p>Tel: +51 943 032 477</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Next Level English. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        let index = 0;
+        function moveSlide(direction) {
+            const carousel = document.querySelector('.carousel');
+            const slides = document.querySelectorAll('.carousel div');
+            const totalSlides = slides.length;
+            const visibleSlides = 3;
+            index = Math.max(0, Math.min(index + direction, totalSlides - visibleSlides));
+            carousel.style.transform = `translateX(${-index * (100 / visibleSlides)}%)`;
+        }
+    </script>
+</body>
+</html>
